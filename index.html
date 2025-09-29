@@ -1,50 +1,94 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <header>
-        <div class = "content"></div>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Welcome...</h2>
-            <p>Hi. This is my portfolio.</p>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm passionate about building tools to solve real-world problems.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Take a look at some of the projects I've worked on.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email me @ : <a href="mailto:gppooja3@gmail.com">gppooja3@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/poojagp/">POOJA GP</a></p>
-        </section>
-    </main>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>POOJA GP | Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of POOJA GP, a passionate developer.">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
-    <footer>
-        <p>&copy; 2025 My Portfolio</p>
-    </footer>
-        <script src="sc.js"></script>
-    </body>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">POOJA GP</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Hi, I'm <span class="highlight">POOJA GP</span></h2>
+        <p class="subtext">A passionate developer who loves building solutions with code.</p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I'm a developer focused on crafting efficient and scalable solutions. I enjoy blending logic with creativity to bring ideas to life on the web.</p>
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>Java</li>
+          <li>HTML & CSS</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Machine Learning</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Personal Website</h3>
+            <p>Showcase portfolio and blog posts.</p>
+            <a href="https://github.com/PoojaGP-12/PoojaGP-12.github.io" target="_blank">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Storythm</h3>
+            <p>Responsive online bookstore website.</p>
+            <a href="https://github.com/PoojaGP-12/Storythm-" target="_blank">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>EEG Analytical Model</h3>
+            <p>Estimate learners' understanding using EEG signals.</p>
+            <a href="https://github.com/PoojaGP-12/EEG-Analytical-Model" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gppooja3@gmail.com">gppooja3@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/poojagp/" target="_blank">POOJA GP</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pooja GP.</p>
+  </footer>
+
+  <script src="sc.js"></script>
+</body>
 </html>
